@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btn_home"
+        android:title="Home"
+        android:icon="@drawable/ic_outline_home_24">
+    </item>
+
+    <item
+        android:id="@+id/btn_den"
+        android:title="Đèn flash"
+        android:icon="@drawable/ic_outline_flashlight_on_24">
+    </item>
+    <item
+        android:id="@+id/btn_coi"
+        android:title="@string/btn_coi"
+        android:icon="@drawable/ic_baseline_notifications_none_24">
+    </item>
+    <item
+        android:id="@+id/btn_thongtin"
+        android:title="@string/btn_thongtin"
+        android:icon="@drawable/ic_outline_health_and_safety_24">
+    </item>
+</menu>

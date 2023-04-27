@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="362dp"
+        android:layout_height="140dp">
+
+        <LinearLayout
+            android:layout_width="343dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_close_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="0dp"
+                android:text="SOS khẩn cấp"
+                android:textColor="#000000"
+                android:textSize="42sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Dịch vụ khẩn cấp"
+
+
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="534dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv113"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:gravity="center_vertical"
+                android:text="Cảnh sát 113"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/btn113"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                app:srcCompat="@drawable/ic_outline_phone_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv115"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:gravity="center_vertical"
+                android:text="Cứu thương 115"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/btn115"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                app:srcCompat="@drawable/ic_outline_phone_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv114"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:gravity="center_vertical"
+                android:text="Cảnh sát chữa cháy 114"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/btn114"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                app:srcCompat="@drawable/ic_outline_phone_24" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+
+        app:menu="@menu/menu_bottom_nav"></com.google.android.material.bottomnavigation.BottomNavigationView>
+</LinearLayout>

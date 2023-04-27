@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HauiSoS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_thongtin">Thông tin y tế</string>
+    <string name="btn_den">Đèn pin SOS</string>
+    <string name="btn_coi">Còi</string>
+    <string name="btn_home">Home</string>
+    <string name="ghichu">Những người ứng cứu đầu tiên có thể xem thông tin y tế của bạn để hỗ trợ bạn tốt hơn trong tình huống khẩn cấp.</string>
+</resources>
